@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 header {
   background: linear-gradient(to right, #0066ff, #00ccff);
   color: white;
-  height: 101vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
