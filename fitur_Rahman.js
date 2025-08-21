@@ -1,4 +1,4 @@
-// Smooth scroll untuk link
+// Smooth scroll untuk link // (awalnya cuma: // Smooth scroll untuk link)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function(e) {
     e.preventDefault();
@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Efek fade-in saat scroll
+// Efek fade-in saat scroll // gabut //
 const faders = document.querySelectorAll('.fade-in');
 
 const appearOnScroll = new IntersectionObserver(function(entries, observer) {
