@@ -1,4 +1,4 @@
-// Smooth scroll untuk link
+// Smooth scroll untuk link // (awalnya cuma: // Smooth scroll untuk link)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function(e) {
     e.preventDefault();
